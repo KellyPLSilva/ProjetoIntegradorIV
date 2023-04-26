@@ -25,5 +25,4 @@
                 width="348" height="250" class="chartjs-render-monitor"></canvas>
         </div>
     </div>
-
 </div>

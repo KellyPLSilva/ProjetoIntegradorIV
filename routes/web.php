@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/',[App\Http\Controllers\HomeController::class,'index']);
+
+Route::get('/profissionais-data',[App\Http\Controllers\ProfissionaisController::class,'profissionais']);
+
+Route::get('/por-uf',[App\Http\Controllers\FCAController::class,'qtde_uf']);
