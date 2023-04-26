@@ -312,11 +312,14 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
+            'text'        => 'Home',
+            'url'         => '/',
             'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
+        ], 
+        [
+            'text'        => 'UF/Municipios',
+            'url'         => '/uf-mun',
+            'icon'        => 'far fa-fw fa-file',
         ],
        /*  ['header' => 'account_settings'],
         [
@@ -328,7 +331,7 @@ return [
             'text' => 'change_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
-        ], */
+        ], 
         [
             'text'    => 'multilevel',
             'icon'    => 'fas fa-fw fa-share',
@@ -366,7 +369,7 @@ return [
                     'url'  => '#',
                 ],
             ],
-        ],
+        ],*/
        /*  ['header' => 'labels'],
         [
             'text'       => 'important',

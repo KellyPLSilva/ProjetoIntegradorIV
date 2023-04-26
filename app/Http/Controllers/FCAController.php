@@ -21,4 +21,12 @@ class FCAController extends Controller
         //print_r($por_uf);
         return $por_uf;
     }
+    public function mais_antiga()
+    {
+        $companhia_mais_antiga = f_c_a::orderBy('data_constituicao','ASC')->first();
+        $data = date_create($companhia_mais_antiga->data_constituicao);
+        $companhia_mais_antiga->data_constituicao = date_format($data,"d/m/Y");
+
+        return $companhia_mais_antiga;
+    }
 }

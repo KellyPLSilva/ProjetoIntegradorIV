@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[App\Http\Controllers\HomeController::class,'index']);
+Route::get('/uf-mun',[App\Http\Controllers\HomeController::class,'uf_mun']);
 
 Route::get('/profissionais-data',[App\Http\Controllers\ProfissionaisController::class,'profissionais']);
 
 Route::get('/por-uf',[App\Http\Controllers\FCAController::class,'qtde_uf']);
+Route::get('/qtde-companhias',[App\Http\Controllers\FCAController::class,'qtde']);
+Route::get('/mais-antiga',[App\Http\Controllers\FCAController::class,'mais_antiga']);
