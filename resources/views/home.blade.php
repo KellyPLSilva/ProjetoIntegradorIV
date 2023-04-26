@@ -67,12 +67,13 @@
     </div>
     @component('graficos.graficoTorre')
     @endcomponent
-    <div class="row">
+<div class="row">
     @component('graficos.graficoLinha')
     @endcomponent
+
     @component('graficos.graficoRosca')
     @endcomponent
-    </div>
+</div>
 @stop
 
 @section('css')
@@ -82,5 +83,6 @@
 @section('js')
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="path/to/chartjs/dist/chart.umd.js"></script>
-    <script src="{{ asset('js/graficos.js')}}"></script>
+    <script src="{{ asset('js/graficos.js') }}"></script>
+    <script src="{{ asset('js/home.js') }}"></script>
 @stop
