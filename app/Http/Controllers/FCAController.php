@@ -18,7 +18,6 @@ class FCAController extends Controller
     public function qtde_uf()
     {
         $por_uf = f_c_a::select('sigla_uf as uf',f_c_a::raw('count(sigla_uf) as qtde'))->groupBy('sigla_uf')->orderBy('qtde','DESC')->get()->toArray();
-        //print_r($por_uf);
         return $por_uf;
     }
     public function mais_antiga()
@@ -28,5 +27,15 @@ class FCAController extends Controller
         $companhia_mais_antiga->data_constituicao = date_format($data,"d/m/Y");
 
         return $companhia_mais_antiga;
+    }
+    public function setor_atividade()
+    {
+        $setor_atividade = f_c_a::select('setor_atividade',f_c_a::raw('count(setor_atividade) as qtde'))->groupBy('setor_atividade')->orderBy('qtde','DESC')->get()->toArray();
+        return $setor_atividade;
+    }
+    public function controle_acionario()
+    {
+        $setor_atividade = f_c_a::select('especie_controle_acionario',f_c_a::raw('count(especie_controle_acionario) as qtde'))->groupBy('especie_controle_acionario')->orderBy('qtde','DESC')->get()->toArray();
+        return $setor_atividade;
     }
 }

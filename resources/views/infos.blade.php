@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-lg-3 col-6">
+    <div class="col-lg-4 col-6">
 
         <div class="small-box bg-info">
             <div class="inner" id="qtde_companhias">
@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="col-lg-3 col-6">
+    <div class="col-lg-4 col-6">
 
         <div class="small-box bg-success">
             <div class="inner" id="companhia_mais_antiga">
@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="col-lg-3 col-6">
+    {{-- <div class="col-lg-3 col-6">
 
         <div class="small-box bg-warning">
             <div class="inner">
@@ -47,6 +47,6 @@
                 <i class="ion ion-pie-graph"></i>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 </div>

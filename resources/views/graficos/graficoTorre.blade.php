@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <canvas id="barChart"
-                    style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%; display: block; width: 1200px;"
+                    style="min-height: 500px; height: 500px; max-height: 500px; max-width: 100%; display: block; width: 1200px;"
                     class="chartjs-render-monitor"></canvas>
             </div>
         </div>
