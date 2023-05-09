@@ -1,6 +1,6 @@
 <div class="card card-info col">
     <div class="card-header">
-        <h3 class="card-title">Line Chart</h3>
+        <h3 class="card-title">Profissionais por gênero</h3>
         <div class="card-tools">
             <button type="button" class="btn btn-tool" data-card-widget="collapse">
                 <i class="fas fa-minus"></i>
@@ -23,7 +23,9 @@
             <canvas id="lineChart"
                 style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%; display: block; width: 348px;"
                 width="348" height="250" class="chartjs-render-monitor"></canvas>
+            <p>Quantidade de profissionais, segregados por gênero, que atuam nas lideranças das companhias de capital aberto</p>
+            <br>
+            <p>IBGC, 2023; IBGC, 2022; IBGC, 2021.</p>
         </div>
-    </div>
-
+    </div>    
 </div>
