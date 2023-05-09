@@ -15,7 +15,7 @@
 <div class="row">
     @component('graficos.graficoLinha')
     @endcomponent
-    @component('graficos.graficoRosca')
+    @component('graficos.graficoPizza')
     @endcomponent
 </div>
 @stop
