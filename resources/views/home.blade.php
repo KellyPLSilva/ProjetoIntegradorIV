@@ -5,6 +5,7 @@
 @section('content_header')
     <h1>Dashboard</h1>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @stop
 
 @section('content')

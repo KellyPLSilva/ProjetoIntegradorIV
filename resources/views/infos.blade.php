@@ -1,19 +1,19 @@
-<div class="row">
-    <div class="col-lg-4 col-6">
+<div class="div_info row">
+    <div class="col-lg-4">
 
-        <div class="small-box bg-info">
-            <div class="inner" id="qtde_companhias">
-                <p>Quantidade de Companhias</p>
-            </div>
+        <div class="altura_info small-box bg-info">
             <div class="icon">
                 <i class="ion ion-bag"></i>
+            </div>
+            <div class="inner" id="qtde_companhias">
+                <p>Quantidade de Companhias</p>
             </div>
         </div>
     </div>
 
-    <div class="col-lg-4 col-6">
+    <div class="col-lg-4">
 
-        <div class="small-box bg-success">
+        <div class="altura_info small-box bg-success">
             <div class="inner" id="companhia_mais_antiga">
                 <p>Companhia mais antiga</p>
             </div>
