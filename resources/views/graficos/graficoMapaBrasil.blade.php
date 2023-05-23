@@ -38,5 +38,8 @@
                   </table>
             </div>
         </div>
+        <p>Quantidade de companhias de capital aberto por estado</p>
+            <br>
+            <p>Fonte: CVM - Formulários Cadastrais de Cias Abertas (2022)</p>
     </div>
 </div>

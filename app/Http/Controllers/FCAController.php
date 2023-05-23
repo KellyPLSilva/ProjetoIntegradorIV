@@ -38,4 +38,9 @@ class FCAController extends Controller
         $setor_atividade = f_c_a::select('especie_controle_acionario',f_c_a::raw('count(especie_controle_acionario) as qtde'))->groupBy('especie_controle_acionario')->orderBy('qtde','DESC')->get()->toArray();
         return $setor_atividade;
     }
+    public function segmento_listagem()
+    {
+        $setor_atividade = f_c_a::select('segimento_de_listagem',f_c_a::raw('count(segimento_de_listagem) as qtde'))->groupBy('segimento_de_listagem')->orderBy('qtde','DESC')->get()->toArray();
+        return $setor_atividade;
+    }
 }

@@ -25,7 +25,7 @@
                 width="348" height="250" class="chartjs-render-monitor"></canvas>
             <p>Quantidade de profissionais, segregados por gênero, que atuam nas lideranças das companhias de capital aberto</p>
             <br>
-            <p>IBGC, 2023; IBGC, 2022; IBGC, 2021.</p>
+            <p>Fonte: IBGC, 2023; IBGC, 2022; IBGC, 2021.</p>
         </div>
     </div>    
 </div>

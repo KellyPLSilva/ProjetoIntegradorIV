@@ -21,6 +21,7 @@ Route::get('/profissionais-data',[App\Http\Controllers\ProfissionaisController::
 
 Route::get('/por-uf',[App\Http\Controllers\FCAController::class,'qtde_uf']);
 Route::get('/setor-atividade',[App\Http\Controllers\FCAController::class,'setor_atividade']);
+Route::get('/segmento-listagem',[App\Http\Controllers\FCAController::class,'segmento_listagem']);
 Route::get('/controle-acionario',[App\Http\Controllers\FCAController::class,'controle_acionario']);
 Route::get('/qtde-companhias',[App\Http\Controllers\FCAController::class,'qtde']);
 Route::get('/mais-antiga',[App\Http\Controllers\FCAController::class,'mais_antiga']);

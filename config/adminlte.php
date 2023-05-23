@@ -317,7 +317,7 @@ return [
             'icon'        => 'far fa-fw fa-file',
         ], 
         [
-            'text'        => 'UF/Municipios',
+            'text'        => 'UF',
             'url'         => '/uf-mun',
             'icon'        => 'far fa-fw fa-file',
         ],

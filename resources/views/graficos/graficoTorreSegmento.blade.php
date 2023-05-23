@@ -1,7 +1,7 @@
 <div class="row">
     <div class="card card-success col">
         <div class="card-header">
-            <h3 class="card-title">Companhia por setor de atividade</h3>
+            <h3 class="card-title">Companhia por segmento de listagem</h3>
             <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse">
                     <i class="fas fa-minus"></i>
@@ -21,10 +21,10 @@
                         <div class=""></div>
                     </div>
                 </div>
-                <canvas id="barChart"
+                <canvas id="barChartSegmento"
                     style="min-height: 500px; height: 500px; max-height: 500px; max-width: 100%; display: block; width: 1200px;"
                     class="chartjs-render-monitor"></canvas>
-            <p>Quantidade de companhias de capital aberto por setor de atividade</p>
+            <p>Quantidade de companhias de capital aberto por segmento de listagem</p>
             <br>
             <p>Fonte: CVM - Formulários Cadastrais de Cias Abertas (2022)</p>
             </div>

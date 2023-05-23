@@ -4,6 +4,7 @@
 
 @section('content_header')
     <h1>Dashboard</h1>
+    <h5>Painel Informativo: Companhias de Capital Aberto</h5>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @stop
@@ -19,6 +20,8 @@
     @component('graficos.graficoPizza')
     @endcomponent
 </div>
+@component('graficos.graficoTorreSegmento')
+@endcomponent
 @stop
 
 @section('css')
