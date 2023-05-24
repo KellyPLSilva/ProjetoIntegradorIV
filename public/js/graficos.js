@@ -33,7 +33,12 @@ function barChart(data) {
                 y: {
                     beginAtZero: true
                 }
-            }
+            },
+            plugins: {
+                legend: {
+                  display: false
+                }
+              }
         }
     });
 }
@@ -153,7 +158,12 @@ function barChartSegmento(data) {
                 y: {
                     beginAtZero: true
                 }
-            }
+            },
+            plugins: {
+                legend: {
+                  display: false
+                }
+              }
         }
     });
 }
